@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Maname&family=Playwrite+AR:wght@100..400&family=Roboto+Slab:wght@100..900&display=swap');
+
+h1 {
+    text-align: center;
+    background-color: rgb(14, 232, 43);
+    color: rgb(64, 0, 255);
+}
+
+h2 {
+    background-color: rgb(203, 20, 20);
+    color: rgb(246, 242, 242);
+}
+
+.hero{
+    background-color: rgb(229, 212, 231);
+}
+
+.back {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.odd {
+    background-color: rgb(0, 170, 255);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.even {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+* {
+    background-color: rgb(255, 255, 255);
+}
+
+.hellotext {
+   font-family: "Roboto Slab", serif;
+
+   padding: 20px;
+   border: 5px solid rgb(239, 0, 0);
+}
+
+.card {
+    width: 550px;
+    height: auto;
+    background-color: rgb(187, 175, 175);
+    border: 5px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 20px;
+    color: rgb(56, 21, 194);
+    forced-color-adjust: ;
+    font-size: 40px;
+    background-color: rgb(166, 53, 53);
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card-text {
+    font-family: "Maname", sans-serif;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(157, 164, 86);
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 11px 20px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
